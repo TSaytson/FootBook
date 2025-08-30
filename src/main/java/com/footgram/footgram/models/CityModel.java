@@ -34,6 +34,6 @@ public class CityModel {
   private String name;
 
   @ManyToOne()
-  @JoinColumn(name = "\"stateId\"")
+  @JoinColumn(name = "stateId")
   private StateModel state;
 }
